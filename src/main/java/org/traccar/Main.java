@@ -77,7 +77,9 @@ public final class Main {
         Locale.setDefault(Locale.ENGLISH);
 
         if (args.length <= 0) {
-            throw new RuntimeException("Configuration file is not provided");
+            args = new String[1];
+            args[0]= "./conf/traccar.xml";
+            //throw new RuntimeException("Configuration file is not provided");
         }
 
         final String configFile = args[args.length - 1];
