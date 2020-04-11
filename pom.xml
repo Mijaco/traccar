@@ -284,6 +284,7 @@
                             <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                         </manifest>
                     </archive>
+                    <outputDirectory>../sources</outputDirectory>
                 </configuration>
             </plugin>
             <plugin>
